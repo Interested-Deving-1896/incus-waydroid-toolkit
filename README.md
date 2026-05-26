@@ -58,7 +58,20 @@ waydroid-toolkit
 ## CI
 
 <!-- AI:start:ci -->
-_CI documentation pending._
+The repository uses GitHub Actions for continuous integration. The following workflows are defined:
+
+1. **integration.yml**  
+   - Runs unit tests and integration tests using `pytest` with coverage reporting.  
+   - Requires Python 3.11.  
+   - No secrets are required.
+
+2. **mirror-osp-to-ooc.yaml**  
+   - Mirrors the repository from the "open-source project" (OSP) to an "out-of-core" (OOC) repository.  
+   - Requires the following secrets:  
+     - `OOC_REPO_URL`: URL of the target repository.  
+     - `OOC_REPO_TOKEN`: Personal access token for authentication.  
+
+Workflows are triggered on push and pull request events.
 <!-- AI:end:ci -->
 
 ## Mirror chain
@@ -78,7 +91,10 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 ## Contributors
 
 <!-- AI:start:contributors -->
-_Contributors pending._
+- [@Interested-Deving-1896](https://github.com/Interested-Deving-1896): 50 commits  
+- [@ona-agent](https://github.com/ona-agent): 5 commits  
+
+*Note: This repository may be a mirror. Please check the upstream source for additional details.*
 <!-- AI:end:contributors -->
 
 ## Origins
