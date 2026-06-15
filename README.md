@@ -77,10 +77,10 @@ Workflows are triggered on push and pull request events.
 ## Mirror chain
 
 <!-- AI:start:mirror-chain -->
-This repo is maintained in [`Interested-Deving-1896/waydroid-toolkit`](https://github.com/Interested-Deving-1896/waydroid-toolkit) and mirrored through:
+This repo is maintained in [`Interested-Deving-1896/incus-waydroid-toolkit`](https://github.com/Interested-Deving-1896/incus-waydroid-toolkit) and mirrored through:
 
 ```
-Interested-Deving-1896/waydroid-toolkit  ──►  OpenOS-Project-OSP/waydroid-toolkit  ──►  OpenOS-Project-Ecosystem-OOC/waydroid-toolkit
+Interested-Deving-1896/incus-waydroid-toolkit  ──►  OpenOS-Project-OSP/incus-waydroid-toolkit  ──►  OpenOS-Project-Ecosystem-OOC/incus-waydroid-toolkit
 ```
 
 Changes flow downstream automatically via the hourly mirror chain in
@@ -113,7 +113,7 @@ Original project — unified management suite for Waydroid (Android in a Linux c
 <!-- AI:start:resources -->
 | File | Description |
 |---|---|
-| [dep-graph/origins.md](https://github.com/Interested-Deving-1896/waydroid-toolkit/blob/main/dep-graph/origins.md) | Dependency graph (Markdown table) |
+| [dep-graph/origins.md](https://github.com/Interested-Deving-1896/incus-waydroid-toolkit/blob/main/dep-graph/origins.md) | Dependency graph (Markdown table) |
 <!-- AI:end:resources -->
 
 ## License
