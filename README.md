@@ -1,7 +1,8 @@
 [update-readmes]   Mode: rewrite — migrating to template structure...
 # waydroid-toolkit
 
-[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/waydroid-toolkit)
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/incus-waydroid-toolkit) [![KDE Eco](https://img.shields.io/badge/KDE%20Eco-certified-brightgreen?logo=kde&logoColor=white&style=flat-square)](https://eco.kde.org/) [![Blue Angel](https://img.shields.io/badge/Blue%20Angel-DE--UZ%20215-0055a4?style=flat-square)](https://www.blauer-engel.de/en/certification/criteria) [![Energy](https://api.green-coding.io/v1/ci/badge/get?repo=Interested-Deving-1896%2Fincus-waydroid-toolkit&branch=main&workflow=eco-audit.yml)](https://metrics.green-coding.io/ci-index.html)
+
 
 <!-- AI:start:what-it-does -->
 _Description pending._
@@ -60,16 +61,16 @@ waydroid-toolkit
 <!-- AI:start:ci -->
 The repository uses GitHub Actions for continuous integration. The following workflows are defined:
 
-1. **integration.yml**  
-   - Runs unit tests and integration tests using `pytest` with coverage reporting.  
-   - Requires Python 3.11.  
+1. **integration.yml**
+   - Runs unit tests and integration tests using `pytest` with coverage reporting.
+   - Requires Python 3.11.
    - No secrets are required.
 
-2. **mirror-osp-to-ooc.yaml**  
-   - Mirrors the repository from the "open-source project" (OSP) to an "out-of-core" (OOC) repository.  
-   - Requires the following secrets:  
-     - `OOC_REPO_URL`: URL of the target repository.  
-     - `OOC_REPO_TOKEN`: Personal access token for authentication.  
+2. **mirror-osp-to-ooc.yaml**
+   - Mirrors the repository from the "open-source project" (OSP) to an "out-of-core" (OOC) repository.
+   - Requires the following secrets:
+     - `OOC_REPO_URL`: URL of the target repository.
+     - `OOC_REPO_TOKEN`: Personal access token for authentication.
 
 Workflows are triggered on push and pull request events.
 <!-- AI:end:ci -->
@@ -91,8 +92,8 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 ## Contributors
 
 <!-- AI:start:contributors -->
-- [@Interested-Deving-1896](https://github.com/Interested-Deving-1896): 50 commits  
-- [@ona-agent](https://github.com/ona-agent): 5 commits  
+- [@Interested-Deving-1896](https://github.com/Interested-Deving-1896): 50 commits
+- [@ona-agent](https://github.com/ona-agent): 5 commits
 
 *Note: This repository may be a mirror. Please check the upstream source for additional details.*
 <!-- AI:end:contributors -->
@@ -115,6 +116,20 @@ Original project — unified management suite for Waydroid (Android in a Linux c
 |---|---|
 | [dep-graph/origins.md](https://github.com/Interested-Deving-1896/incus-waydroid-toolkit/blob/main/dep-graph/origins.md) | Dependency graph (Markdown table) |
 <!-- AI:end:resources -->
+
+<!-- AI:start:accessibility -->
+This repo uses automated accessibility auditing via `check-accessibility.yml`.
+
+Checks include: CODEOWNERS ownership coverage, README screen-reader compatibility,
+WCAG 2.1 AA HTML compliance, audio overview (espeak-ng), and Braille output (liblouis).
+
+
+
+
+Run the [Check Accessibility](https://github.com/Interested-Deving-1896/incus-waydroid-toolkit/actions/workflows/check-accessibility.yml)
+workflow to generate the first report and accessibility artifacts.
+See [DOCS/accessibility.md](https://github.com/Interested-Deving-1896/incus-waydroid-toolkit/blob/main/DOCS/accessibility.md) for the full reference.
+<!-- AI:end:accessibility -->
 
 ## License
 
